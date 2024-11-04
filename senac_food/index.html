@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senac Food</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+      <div>
+      <img src="img/logo.svg" alt="Senac Food">
+      <nav class="mt-1 mx-auto">
+          <a href="#cards">Cardápio</a>
+          <a href="#">Histórico</a>
+          <a href="#">Fórum</a>
+          <a href="#atendimento">Atendimento</a>
+      </nav>
+      <a href="#" class="button-profile">Perfil</a>
+    </div>
+  </header>
+  <main>
+    <section class="hero-section container">
+        <img src="img/banner2.png" alt="Uma boa opção para o seu cardápio.">
+    </section>
+    <section>
+        <div class="button-pesquisa mx-auto">
+            <input type="text" placeholder="Pesquisa...">
+        </div>
+        <div class="container">
+            <a href="#" class="button-tag">Ofertas</a>
+            <a href="#" class="button-tag">Salgados</a>
+            <a href="#" class="button-tag">Sobremesas</a>
+            <a href="#" class="button-tag">Bebidas</a>
+
+        </div>
+        <div class="cards" id="cards">      
+        <div class="card">
+            <div>
+                <h2>Comida</h2><br>
+                <h2>R$ 00,00</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button class="add-button">
+                    <span class="icon"><img src="./img/bag.svg" alt=""></span> Adicionar
+                </button>
+            </div>
+            <div class="card-image">
+                <img src="img/salgado.png" alt="Coxinha">
+            </div>
+        </div>
+        
+
+            <div class="card">
+                <div>
+                    <h2>Comida</h2><br>
+                    <h2>R$ 00,00</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button class="add-button">
+                        <span class="icon" ><img src="./img/bag.svg" alt=""></span> Adicionar
+                    </button>
+                </div>
+                <div class="card-image">
+                    <img src="img/salgado2.png" alt="Salgado">
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <h2>Comida</h2><br>
+                    <h2>R$ 00,00</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button class="add-button">
+                        <span class="icon"><img src="./img/bag.svg" alt=""></span> Adicionar
+                    </button>
+                </div>
+                <div class="card-image">
+                    <img src="img/salgado3.png" alt="Salgado">
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <h2>Bebida</h2><br>
+                    <h2>R$ 00,00</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button class="add-button">
+                        <span class="icon"><img src="./img/bag.svg" alt=""></span> Adicionar
+                    </button>
+                </div>
+                <div class="card-image">
+                    <img src="img/suco.png" alt="Suco">
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <h2>Comida</h2><br>
+                    <h2>R$ 00,00</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button class="add-button">
+                        <span class="icon"><img src="./img/bag.svg" alt=""></span> Adicionar
+                    </button>
+                </div>
+                <div class="card-image">
+                    <img src="img/salgado3.png" alt="Salgado">
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <h2>Bebida</h2><br>
+                    <h2>R$ 00,00</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button class="add-button">
+                        <span class="icon"><img src="./img/bag.svg" alt=""></span> Adicionar
+                    </button>
+                </div>
+                <div class="card-image">
+                    <img src="img/suco.png" alt="Suco">
+                </div>
+            </div>
+        </div>
+    </section>
+  </main>     
+  <footer class="container">
+    <form method="post" class="atendimento" id="atendimento">
+        <div>
+            <a href="#top"><img src="img/logoB.svg" alt="Senac Food"></a>
+        </div>
+        <h2>Fale Conosco</h2>
+        <div>
+        <label for="nome">Nome</label><br>
+        <input type="text" name="nome" id="nome" placeholder="Digite o seu nome">
+        </div>
+        
+        <div>
+        <label for="email">E-mail</label><br>
+        <input type="text" name="email" id="email" placeholder="Digite o seu email">
+        </div>
+        
+        <div>
+            <label for="mensagem">Mensagem</label><br>
+            <textarea name="mensagem" id="mensagem" rows="5"></textarea>
+        </div>
+       
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+  </footer> 
+</body>
+</html>
